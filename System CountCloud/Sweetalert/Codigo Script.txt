@@ -1,0 +1,23 @@
+<link href="Scripts/sweetalert.css" rel="stylesheet" />
+    <script src="Scripts/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+
+        function successalert() {
+            swal({
+                title: 'Exitos!',
+                text: 'Tabla creada Exitosamente!',
+                type: 'success'
+            });
+        }
+
+
+        function Error_TablaNombre() {
+            swal({
+                title: 'Fallo!',
+                text: 'Favor Ingrese el nombre de la Tabla!',
+                type: 'error'
+            });
+        }
+
+    </script>
